@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DEN</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- 去掉轮播图阴影 -->
+    <style>
+        .left {
+            text-shadow: none;
+        }
+
+        .carousel-control.right, .carousel-control.left {
+            background-image: none;
+        }
+
+        .divhover:hover {
+            cursor: hand;
+            background: #afd9ee;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 头部菜单 -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: black;">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">LOGO</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="index.html">产品介绍</a>
+                </li>
+                <li>
+                    <a href="index.html">线路图</a>
+                </li>
+                <li>
+                    <a href="index.html">文档</a>
+                </li>
+                <li>
+                    <a href="index.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- 轮播图 -->
+<div id="myCarousel" class="carousel slide" style="margin-top: 60px;background-color:blue;height: 600px;">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <header class="intro-header" style=" height: 600px;background-image: url('img/2.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="site-heading">
+                                <h1>更好的交易方式</h1>
+                                <hr class="long">
+                                <span class="subheading">一个账号即可获得全球流动性和全球最优价格</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="item">
+            <!-- Page Header -->
+            <!-- Set your background image for this header on the line below. -->
+            <header class="intro-header" style=" height: 600px;background-image: url('img/2.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="site-heading">
+                                <h1>低成本，低门槛</h1>
+                                <hr class="long">
+                                <span class="subheading">无技术背景快速开通，简单便捷专业运营</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="item">
+            <!-- Page Header -->
+            <!-- Set your background image for this header on the line below. -->
+            <header class="intro-header" style=" height: 600px;background-image: url('img/2.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="site-heading">
+                                <h1>提供更好的交易服务</h1>
+                                <hr class="long">
+                                <span class="subheading">低交易成本，多种下单策略，获取最优成交价</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="item">
+            <!-- Page Header -->
+            <!-- Set your background image for this header on the line below. -->
+            <header class="intro-header" style=" height: 600px;background-image: url('img/2.png')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="site-heading">
+                                <h1>去中心化资产管理</h1>
+                                <hr class="long">
+                                <span class="subheading">链上托管，链上结算，保证资产安全，保证交易透明</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container">
+    <div class="row" style="text-align: left;margin-top: 30px;">
+        <div class="col-lg-3 col-md-3">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4">
+                        <img src="img/global.png" style=" height: 75px;width: 75px;">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>全球流动性</h4>
+                        <span style="font-size: 10px;color: #9d9d9d;">打通跨交易所通道,共享流动性</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4">
+                        <img src="img/low.png" style=" height: 75px;width: 75px;">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>低门槛接入</h4>
+                        <span style="font-size: 10px;color: #9d9d9d;">无需及时背景,即可急速开通</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4">
+                        <img src="img/business.png" style=" height: 75px;width: 75px;">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>运营高度自治</h4>
+                        <span style="font-size: 10px;color: #9d9d9d;">便捷的、完善的运营系统</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <div class="row">
+                <a href="#">
+                    <div class="col-md-4">
+                        <img src="img/trade.png" style=" height: 75px;width: 75px;">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>交易成本最优</h4>
+                        <span style="font-size: 10px;color: #9d9d9d;">交易费用低或无,交易价格最优</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="text-align: center;">
+        <br>
+        <br>
+        <br>
+        <p>
+        <h2>为交易所打通通道，提供<strong>更多标的选择和最优成本价格</strong></h2>
+        <p>
+        <p style="color: #9d9d9d;">帮助数字货币交易所提高流动性，扩大用户群体和业务量</p>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="row" style="text-align: center;font-size: 15px;">
+        <div class="col-md-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/quick.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>急速开通</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">申请通过即拥有自己的交易平台</p>
+        </div>
+        <div class="col-lg-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/business.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>运营门槛低</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">操作便捷的运营系统让您更专业</p>
+        </div>
+        <div class="col-lg-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/global.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>共享全球流动性</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">一个账户共享全球流动性</p>
+        </div>
+    </div>
+    <div class="row" style="text-align: center;font-size: 15px;">
+        <div class="col-lg-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/engine.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>高性能撮合引擎</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">TPS百万级撮合吞吐量</p>
+        </div>
+        <div class="col-lg-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/trade.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>交易最优成本价</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">交易费用低，最优价成交</p>
+        </div>
+        <div class="col-lg-4 divhover">
+            <a href="#" style="text-decoration: none;">
+                <p style="line-height: 30px;"><img src="img/engine.png" style="width: 150px;height: 100px;"/></p>
+                <p><h4><strong>多种下单策略</strong></h4></p>
+            </a>
+            <p style="margin-bottom: 30px;color: #9d9d9d;">让您的交易更加便捷和高效</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 100px;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col-md-12" style="text-align: center;">
+            <img src="img/line.png" style="width: 800px;height: 700px;"/>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">@2018 DEN 版权所有</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
